@@ -12,7 +12,7 @@
       margin: 5px 0 15px 0;
     }
 
-    .sucess {
+    .success {
       background: green;
     }
 
@@ -31,28 +31,30 @@
         <input type="text" id="title" class="u-full-width">
       </div>
       <div>
-          <label for="author">Author</label>
-          <input type="text" id="author" class="u-full-width">
-        </div>
-        <div>
-            <label for="isbn">ISBN#</label>
-            <input type="text" id="isbn" class="u-full-width">
-          </div>
-          <div>
-            <input type="submit" value="Submit" class="u-full-width">
-          </div>
+        <label for="author">Author</label>
+        <input type="text" id="author" class="u-full-width">
+      </div>
+      <div>
+        <label for="isbn">ISBN#</label>
+        <input type="text" id="isbn" class="u-full-width">
+      </div>
+      <div>
+        <input type="submit" value="Submit" class="u-full-width">
+      </div>
     </form>
-    <table class="u-full-width"></table>
+    <table class="u-full-width">
       <thead>
         <tr>
-          <th></th>
-          <th></th>
-          <th></th>
+          <th>Title</th>
+          <th>Author</th>
+          <th>ISBN</th>
           <th></th>
         </tr>
       </thead>
       <tbody id="book-list"></tbody>
+    </table>
   </div>
+
   <script src="app.js"></script>
 </body>
 </html>
